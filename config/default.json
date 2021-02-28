@@ -1,0 +1,20 @@
+{
+    "db-connections":{
+        "mongodb":{
+            "hostmongodb":"cluster0.ouqon.mongodb.net",
+            "user":"admi_rest_api",
+            "password":"vVjzw52cEz9bSzZJ",
+            "dbname":"academicDB"
+        }
+    },
+    "secretkeys":{
+        "cryptojs":"CW4RX@WxNz6",
+        "jwt": "ABC@2021*"
+    },
+    "roles":{
+        "student": 1,
+        "teacher": 2
+    },
+    "server-port": 3000,
+    "sessionTime": 3600
+}
